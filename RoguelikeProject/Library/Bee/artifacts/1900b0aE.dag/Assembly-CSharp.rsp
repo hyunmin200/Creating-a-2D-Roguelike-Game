@@ -376,9 +376,11 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/BoardManager.cs"
+"Assets/Scripts/Enemy.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Loader.cs"
 "Assets/Scripts/MovingObject.cs"
+"Assets/Scripts/Player.cs"
 "Assets/Scripts/Wall.cs"
 -langversion:9.0
 
