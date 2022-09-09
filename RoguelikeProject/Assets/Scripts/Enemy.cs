@@ -5,8 +5,8 @@ using UnityEngine;
 public class Enemy : MovingObject
 {
 	public int playerDamage;
-	public AudioClip attackSound1;    
-	public AudioClip attackSound2;
+	public AudioClip enemyAttackSound1;
+	public AudioClip enemyAttackSound2;
 
 
 	private Animator animator;
@@ -63,5 +63,7 @@ public class Enemy : MovingObject
 		animator.SetTrigger("enemyAttack");
 
 		hitPlayer.LoseFood(playerDamage);
+
+		SoundManager.instance.RandomizeSfx(enemyAttackSound1, enemyAttackSound2);
 	}
 }
